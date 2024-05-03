@@ -55,12 +55,11 @@ In prolog, Terms are the fundamental building blocks for constructing prolog pro
   *Sequence of letters, numbers, or underscore beginning with a capital letter.
 
   COMPOUND TERMS
-  *A compound ter has the form
+  *A compound term has the form
     <atom>(<sequence of prolog terms seperated by commas>)
     Ex. parent(anakin,luke) is a compund terms. For exampl, student(name,(winkelmann),id(12345),age(16),evil) is another compound term.
 
-  Vocab: The atom of at the beginning if a compound term is called its functor. The number fo arguments/terms within the parenthesis of a functor is called its arrity. In normal text, we can refer to compond terms as <functo/<aritty>. Ex.
-  the parent in our compund term in our code file can be referred to as parent/2
+  Vocab: The atom of at the beginning if a compound term is called its functor. The number fo arguments/terms within the parenthesis of a functor is called its arrity. In normal text, we can refer to compond terms as <functo/<aritty>. Ex. the parent in our compund term in our code file can be referred to as parent/2
 
 *reserved words in prolog: true, false, fail
 
